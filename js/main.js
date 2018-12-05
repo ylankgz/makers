@@ -264,30 +264,55 @@ $('#screenshot-carusel').owlCarousel({
   // Contact Form  
   // ------------------------------------------------------------------------------ //
 
-  var submitContact = $('#submit-message'),
-    message = $('#msg');
+  $(document)
+.on('click', 'form button[type=submit]', function(e) {
+    var isValid = $(e.target).parents('form').isValid();
+    if(!isValid) {
+      e.preventDefault(); //prevent the default action
+    }
+});
 
-  submitContact.on('click', function (e) {
-    e.preventDefault();
-
-    var $this = $(this);
-
-    $.ajax({
-      type: "POST",
-      url: 'contact.php',
-      dataType: 'json',
-      cache: false,
-      data: $('#contact-form').serialize(),
-      success: function (data) {
-
-        if (data.info !== 'error') {
-          $this.parents('form').find('input[type=text],input[type=email],textarea,select').filter(':visible').val('');
-          message.hide().removeClass('success').removeClass('error').addClass('success').html(data.msg).fadeIn('slow').delay(5000).fadeOut('slow');
-        } else {
-          message.hide().removeClass('success').removeClass('error').addClass('error').html(data.msg).fadeIn('slow').delay(5000).fadeOut('slow');
-        }
-      }
-    });
+  $('#gform').on('submit', function(e) {
+    if(grecaptcha && grecaptcha.getResponse().length > 0){
+      var alert = '<h2 class="text-center">Спасибо! Ваше сообщение отправлено</h2>';
+      $('#gform *').fadeOut(2000);
+      $("#gform").prepend(alert);
+    } else {
+      e.preventDefault(); 
+      var alert = '<div class="alert alert-danger alert-dismissible fade show" role="alert">\
+                            <strong>Упс!</strong> Чекните каптчу\
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">\
+                                <span aria-hidden="true">&times;</span>\
+                            </button>\
+                        </div>';
+      $("#gform").prepend(alert);  
+    }
+       
   });
+  // var submitContact = $('#submit-message'),
+  //   message = $('#msg');
+
+  // submitContact.on('click', function (e) {
+  //   e.preventDefault();
+
+  //   var $this = $(this);
+
+  //   $.ajax({
+  //     type: "POST",
+  //     url: 'contact.php',
+  //     dataType: 'json',
+  //     cache: false,
+  //     data: $('#contact-form').serialize(),
+  //     success: function (data) {
+
+  //       if (data.info !== 'error') {
+  //         $this.parents('form').find('input[type=text],input[type=email],textarea,select').filter(':visible').val('');
+  //         message.hide().removeClass('success').removeClass('error').addClass('success').html(data.msg).fadeIn('slow').delay(5000).fadeOut('slow');
+  //       } else {
+  //         message.hide().removeClass('success').removeClass('error').addClass('error').html(data.msg).fadeIn('slow').delay(5000).fadeOut('slow');
+  //       }
+  //     }
+  //   });
+  // });
 
 })(jQuery);
