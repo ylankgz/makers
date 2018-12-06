@@ -288,6 +288,13 @@
   .footer-cols, .copyright-text, #social {
     text-align: center !important;
   }
+
+  #rc-imageselect, .g-recaptcha {
+    transform:scale(0.77);
+    -webkit-transform:scale(0.77);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+  }
 }
 @media (max-width: 480px) {
   .single-counter h2 {

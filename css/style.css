@@ -81,6 +81,11 @@ Author:    F4H3M
   font-weight: 300;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   color: #8c8d9e;
   font-family: "Poppins", sans-serif;
