@@ -3045,4 +3045,88 @@ td, th {
   color: #691cff;
 }
 
+.var-highlight{
+    color: #D31895;
+}
+.class-highlight {
+    color: #23FF83;
+}
+.string-highlight{
+    color: #FF2C38;
+}
+
+#typewriter{
+    color: white;
+        font-size: 1.5em;
+        margin: 0;
+        font-family: "Monaco";
+        line-height: 1.5em;
+
+        
+}
+#typewriter:after{
+            content: "|";
+            animation: blink 500ms linear infinite alternate;
+        }
+
+@-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.buttons {
+    min-height: 0;
+    position: absolute;
+    top: -18px;
+    border-radius: 100%;
+    width: 13px;
+    height: 13px;
+    background-color: #ff5d5b;
+    border: 1px solid #e64344;
+
+    
+  }
+  .buttons:before,
+    .buttons:after {
+      position: absolute;
+      content: "";
+      width: 13px;
+      height: 13px;  
+      border-radius: 100%;
+      top: -1px;
+    }
+
+    .buttons:before {
+      left: 20px;
+      border: 1px solid #e3a041;
+      background-color: #ffbc4c;
+    } 
+
+    .buttons:after {
+      left: 40px;
+      border: 1px solid #13ad46;
+      background-color: #00c956;
+    }   
+
+.sublime {
+    min-height: 330px;
+  position: relative;
+  width: 99%;
+  /* margin: 25px auto; */
+  padding: 2%;
+  border-top: 25px solid #b4b4b4;
+  border-radius: 10px;
+  background: #262728;
+}
+
 
