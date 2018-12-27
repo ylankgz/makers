@@ -26,40 +26,7 @@
     return false;
   });
 
-
-  // ------------------------------------------------------------------------------ //
-  // Preloader 
-  // ------------------------------------------------------------------------------ //
-
-  $(document).ready(function () {
-    setTimeout(function () {
-      $('body').addClass('loaded');
-    }, 1000);
-
-    $('.partner-logos').slick({
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false,
-      dots: false,
-      pauseOnHover: false,
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3
-        }
-      }, {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 2
-        }
-      }]
-    });
-
-  });
-
-  function setupTypewriter(t) {
+    function setupTypewriter(t) {
         var HTML = t.innerHTML;
 
         t.innerHTML = "";
@@ -124,11 +91,46 @@
         };
     }
 
+
+  // ------------------------------------------------------------------------------ //
+  // Preloader 
+  // ------------------------------------------------------------------------------ //
+
+  $(document).ready(function () {
+    setTimeout(function () {
+      $('body').addClass('loaded');
+    }, 1000);
+
+    $('.partner-logos').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      }, {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 2
+        }
+      }]
+    });
+
     var typer = document.getElementById('typewriter');
 
-    typewriter = setupTypewriter(typewriter);
+    var typewriter = setupTypewriter(typer);
 
     typewriter.type();
+
+  });
+
+    
 
 
   // ------------------------------------------------------------------------------ //
