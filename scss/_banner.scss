@@ -124,13 +124,13 @@
 }
 
 .banner-section2 {
-    background: url(../img/banner2.jpg);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
     .overlay-bg {
-        background: url(../img/banner-overlay1.png);
+        background: url(../img/overlay.svg);
         background-size: cover;
         background-repeat: no-repeat;
     }
