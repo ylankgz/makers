@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="909px" height="595px" viewBox="0 0 909 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>excel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="7.34819329e-15%" y1="49.9990643%" x2="100%" y2="49.9990643%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0.12" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.09" offset="55%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.02" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.952312%" y1="100.102537%" x2="50.0435243%" y2="-0.0916186857%" id="linearGradient-2">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="excel" transform="translate(-1.000000, 0.000000)">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" transform="translate(445.613574, 298.140438) rotate(-0.080000) translate(-445.613574, -298.140438) " x="58.8285738" y="30.9654375" width="773.57" height="534.35"></rect>
+            <g id="Group" opacity="0.7" fill="url(#linearGradient-2)">
+                <rect id="Rectangle" transform="translate(455.377726, 297.546804) rotate(-0.080000) translate(-455.377726, -297.546804) " x="1.37772648" y="1.54180359" width="908" height="592.01" rx="28.33"></rect>
+            </g>
+            <rect id="Rectangle" fill="#535461" transform="translate(456.181993, 297.020694) rotate(-0.080000) translate(-456.181993, -297.020694) " x="9.49699267" y="6.47069407" width="893.37" height="581.1" rx="28.33"></rect>
+            <circle id="Oval" fill="#535461" transform="translate(48.091537, 300.010485) rotate(-0.080000) translate(-48.091537, -300.010485) " cx="48.0915374" cy="300.010485" r="20.68"></circle>
+            <g id="Group" opacity="0.1" transform="translate(27.000000, 279.000000)" fill="#000000">
+                <circle id="Oval" transform="translate(21.091537, 21.010485) rotate(-0.080000) translate(-21.091537, -21.010485) " cx="21.0915374" cy="21.0104851" r="20.68"></circle>
+            </g>
+            <circle id="Oval" fill="#535461" transform="translate(866.885997, 210.627312) rotate(-0.080000) translate(-866.885997, -210.627312) " cx="866.885997" cy="210.627312" r="6.89"></circle>
+            <rect id="Rectangle" fill="#535461" transform="translate(867.681685, 289.901125) rotate(-0.080000) translate(-867.681685, -289.901125) " x="864.236685" y="245.096125" width="6.89" height="89.61" rx="1.43"></rect>
+            <g id="Group" opacity="0.1" transform="translate(864.000000, 245.000000)" fill="#000000">
+                <rect id="Rectangle" transform="translate(3.681685, 44.901125) rotate(-0.080000) translate(-3.681685, -44.901125) " x="0.236685051" y="0.0961248202" width="6.89" height="89.61" rx="1.43"></rect>
+            </g>
+            <g id="Group" opacity="0.1" transform="translate(859.000000, 203.000000)" fill="#000000">
+                <circle id="Oval" transform="translate(7.885997, 7.627312) rotate(-0.080000) translate(-7.885997, -7.627312) " cx="7.88599708" cy="7.62731212" r="6.89"></circle>
+            </g>
+            <polygon id="Path" fill="#FFFFFF" points="726 548.58 85.37 548.58 85.37 50.58 833.06 50.58 833.06 480.74 832.63 547.86"></polygon>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 222.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.97" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 185.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.97" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 148.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.97" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 111.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.97" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 74.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.97" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 259.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.98" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 297.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 334.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.02" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 371.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.04" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 408.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.05" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 445.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.07" width="747.69" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 482.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.36" y="0.09" width="747.57" height="6.86"></rect>
+            </g>
+            <g id="Group" opacity="0.7" transform="translate(85.000000, 519.000000)" fill="#E0E0E0">
+                <rect id="Rectangle" x="0.37" y="0.11" width="746.99" height="6.86"></rect>
+            </g>
+            <rect id="Rectangle" fill="#E0E0E0" x="175.16" y="81.8" width="5.18" height="466.78"></rect>
+            <rect id="Rectangle" fill="#E0E0E0" x="289.56" y="81.8" width="5.18" height="466.78"></rect>
+            <rect id="Rectangle" fill="#E0E0E0" x="403.96" y="81.8" width="5.18" height="466.78"></rect>
+            <rect id="Rectangle" fill="#E0E0E0" x="518.36" y="81.8" width="5.18" height="466.78"></rect>
+            <rect id="Rectangle" fill="#E0E0E0" x="632.76" y="81.8" width="5.18" height="466.78"></rect>
+            <polygon id="Path" fill="#E0E0E0" points="752.34 548.58 747.16 548.58 747.16 81.8 752.34 81.58"></polygon>
+            <circle id="Oval" fill="#FF5252" cx="102.09" cy="62.08" r="6.73"></circle>
+            <circle id="Oval" fill="#FFFF00" cx="121.36" cy="62.08" r="6.73"></circle>
+            <circle id="Oval" fill="#69F0AE" cx="140.63" cy="62.08" r="6.73"></circle>
+            <rect id="Rectangle" fill="#6C63FF" x="294.36" y="340.58" width="110" height="30"></rect>
+            <rect id="Rectangle" fill="#6C63FF" x="409.36" y="488.58" width="110" height="30"></rect>
+            <rect id="Rectangle" fill="#6C63FF" x="523.36" y="448.58" width="110" height="30"></rect>
+            <rect id="Rectangle" fill="#6C63FF" x="523.36" y="229.58" width="110" height="30"></rect>
+            <rect id="Rectangle" fill="#6C63FF" x="638.36" y="377.58" width="110" height="30"></rect>
+            <rect id="Rectangle" fill="#6C63FF" x="179.36" y="118.58" width="110" height="30"></rect>
+            <rect id="Rectangle" fill="#6C63FF" x="409.36" y="193.58" width="110" height="30"></rect>
+            <rect id="Rectangle" fill="#6C63FF" x="179.36" y="266.58" width="110" height="30"></rect>
+        </g>
+    </g>
+</svg>
